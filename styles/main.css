@@ -2,4 +2,30 @@
     background: #eee;
     position: relative;
 }
-  
+body {
+  font-size: 1.5em;
+background-color: #fdb600;
+  background-size: cover;
+}
+.button {
+    display:block;
+    text-align: center;
+    padding: 29px 36px;
+    border-radius: 7px;
+    background: #ffffff;
+    font: normal normal bold 25px arial;
+    color: #111111;
+    text-decoration: none;
+    max-width: 320px;
+    margin : 0 auto;
+}
+h1 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 55px;
+  padding: 16px;
+  text-align: center;
+  display: block;
+  margin: 16px;
+}
+.colorbg {}
+/*  a:hover color (pour pouvoir changer de couleur quand on passe dessus ) */
