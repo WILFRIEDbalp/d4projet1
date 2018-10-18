@@ -1,0 +1,166 @@
+#Header {
+  position: relative;
+  width: 100 %;
+  height: 10 %;
+  background-color: #0E2D5F;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  position: relative;
+  margin-left: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  background-color: #FFC83C;
+}
+
+/*ul {
+  font-family: 'Patrick Hand', cursive;
+
+  align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: inherit;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+*/
+
+/* Je sélectionne les <li> du menu horizontal */
+
+ul {
+      font-family: 'Patrick Hand', cursive;
+      font size: 30px;
+  margin: auto;
+}
+
+ul#menu_horizontal li {
+  display: inline;
+  padding: 0 3em;
+}
+
+ul#menu_horizontal {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+#wrapper {
+  overflow: hidden;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  padding: 29px 36px;
+  border-radius: 7px;
+  background: #FFC83C;
+  font: normal normal bold 25px arial;
+  color: #111111;
+  text-decoration: none;
+  max-width: 320px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-menu {
+  float: right;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-menu li {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.main-menu a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.texte {
+  display: flex;
+  justify-content: space-around;
+}
+
+.texte2 {
+  flex-basis: auto;
+  max-width: 750px;
+  margin: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.p {
+  text-align: left;
+}
+
+.icon {
+  width: 150px;
+}
+
+.videos {
+  text-align: center;
+}
+
+footer {
+  background-color: #FFC83C;
+  height: 60px;
+}
+
+.background {
+  background-color: #FFC83C;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  padding: 50px;
+}
+
+footer p {
+  padding: 20px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
